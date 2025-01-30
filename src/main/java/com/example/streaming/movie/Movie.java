@@ -21,4 +21,13 @@ public class Movie {
     private String genre;
     private String rating;
     private String imageUrl;
+
+    public Movie(MovieRequestDTO data) {
+        this.title = data.title();
+        this.director = data.director();
+        this.year = data.year();
+        this.genre = data.genre();
+        this.rating = data.rating();
+        this.imageUrl = data.imageUrl();
+    }
 }
