@@ -19,7 +19,7 @@ public class Movie {
     private String director;
     private int year;
     private String genre;
-    private String rating;
+    private int rating;
     private String imageUrl;
 
     public Movie(MovieRequestDTO data) {
